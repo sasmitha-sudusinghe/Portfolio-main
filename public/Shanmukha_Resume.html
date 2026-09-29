@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shanmukha - Resume</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background-color: #f9f9f9;
+        }
+        .resume-container {
+            background-color: #fff;
+            padding: 50px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        header {
+            text-align: center;
+            border-bottom: 2px solid #2c3e50;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        h1 {
+            color: #2c3e50;
+            margin: 0 0 10px 0;
+            font-size: 2.5em;
+        }
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            font-size: 0.9em;
+            color: #555;
+        }
+        .contact-info a {
+            color: #2980b9;
+            text-decoration: none;
+        }
+        h2 {
+            color: #2c3e50;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 5px;
+            margin-top: 30px;
+        }
+        .section {
+            margin-bottom: 25px;
+        }
+        .item {
+            margin-bottom: 15px;
+        }
+        .item-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 5px;
+        }
+        .item-title {
+            font-weight: bold;
+            color: #333;
+            font-size: 1.1em;
+        }
+        .item-subtitle {
+            font-style: italic;
+            color: #666;
+        }
+        .item-date {
+            color: #7f8c8d;
+            font-size: 0.9em;
+        }
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+        }
+        ul {
+            margin-top: 5px;
+            padding-left: 20px;
+        }
+        ul li {
+            margin-bottom: 5px;
+        }
+        .btn-print {
+            display: block;
+            width: 150px;
+            margin: 20px auto;
+            text-align: center;
+            padding: 10px;
+            background: #2c3e50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            cursor: pointer;
+            border: none;
+            font-size: 1em;
+        }
+        .btn-print:hover {
+            background: #34495e;
+        }
+        @media print {
+            body { background: #fff; padding: 0; }
+            .resume-container { box-shadow: none; padding: 0; }
+            .btn-print { display: none; }
+        }
+    </style>
+</head>
+<body>
+    <button class="btn-print" onclick="window.print()">Print / Save PDF</button>
+    <div class="resume-container">
+        <header>
+            <h1>Shanmukha</h1>
+            <div class="contact-info">
+                <span>Email: <a href="mailto:shanmukhak805@gmail.com">shanmukhak805@gmail.com</a></span>
+                <span>GitHub: <a href="https://github.com/avi839">github.com/avi839</a></span>
+                <span>Instagram: <a href="https://www.instagram.com/shanmukha.__.5">@shanmukha.__.5</a></span>
+            </div>
+        </header>
+
+        <div class="section">
+            <h2>Professional Summary</h2>
+            <p>Data Analytics student and Cybersecurity Enthusiast with a strong background in architecting AI models, RAG systems, and robust full-stack web platforms. Passionate about translating messy, complex raw data into cleanly structured visual sessions, mitigating system vulnerabilities, and building intelligent conversational agents. Skilled in Python and Cloud Computing infrastructure.</p>
+        </div>
+
+        <div class="section">
+            <h2>Experience & Projects</h2>
+            
+            <div class="item">
+                <div class="item-header">
+                    <span class="item-title">Watch Dog</span>
+                    <span class="item-date">NOW</span>
+                </div>
+                <div class="item-subtitle">Lead Developer - Cyber Forensic Framework</div>
+                <ul>
+                    <li>Spearheading the development of a cyber forensic tool designed to systematically monitor browser history and system files.</li>
+                    <li>Developed algorithms to extract, structure, and secure messy browser data, ensuring visibility into deleted tracking and history endpoints.</li>
+                    <li>Utilized Python and file scripting to securely monitor system environments for malicious interactions.</li>
+                </ul>
+            </div>
+
+            <div class="item">
+                <div class="item-header">
+                    <span class="item-title">Intelligent Chatbots & AI</span>
+                    <span class="item-date">2024 - NOW</span>
+                </div>
+                <div class="item-subtitle">Machine Learning & Data Architecture</div>
+                <ul>
+                    <li>Designed and implemented state-of-the-art RAG (Retrieval-Augmented Generation) AI systems from scratch.</li>
+                    <li>Trained predictive AI models to respond to conversational prompts, translating raw datasets into actionable insights.</li>
+                    <li>Integrated cloud computing frameworks to establish high-availability endpoints for machine learning pipelines.</li>
+                </ul>
+            </div>
+
+            <div class="item">
+                <div class="item-header">
+                    <span class="item-title">Pilgrim App</span>
+                    <span class="item-date">2024</span>
+                </div>
+                <div class="item-subtitle">Full-Stack Developer</div>
+                <ul>
+                    <li>Built a robust, aesthetic web platform using Node.js and modern frontend technologies.</li>
+                    <li>Engineered reliable backend REST APIs using Node and Flask to handle data operations and routing logic.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <div>
+                    <strong>Data & AI:</strong> Python, Machine Learning, Deep Learning, RAG Models, Chatbots, Data Analytics, Data Structuring.
+                </div>
+                <div>
+                    <strong>Cybersecurity:</strong> Cyber Forensics, Browser Monitors, System Auditing, Security Best Practices.
+                </div>
+                <div>
+                    <strong>Web Development:</strong> Node.js, Flask, HTML5/CSS, React, RESTful APIs.
+                </div>
+                <div>
+                    <strong>Infrastructure:</strong> Cloud Computing, Git/GitHub, System Architecture.
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Education</h2>
+            <div class="item">
+                <div class="item-header">
+                    <span class="item-title">Data Analytics & Cloud Architecture (Student)</span>
+                    <span class="item-date">Started 2024</span>
+                </div>
+                <p>Currently advancing foundational knowledge in analytics methodologies, statistical modeling, and machine learning algorithms while focusing heavily on hands-on deployment and cybersecurity infrastructure.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
